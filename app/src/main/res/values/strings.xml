@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">todoCrud</string>
+    <string name="id">ID</string>
+    <string name="course_registation">Course Registation</string>
+</resources>

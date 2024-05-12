@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view"
+    android:background="@drawable/background7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/task"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textSize="20dp"
+            android:hint="Search..."
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Search" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lst1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btViewRecyclerView"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:backgroundTint="#0B8FFD"
+            android:text="RecyclerView"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btAddTask"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#7429F8"
+            android:drawableLeft="@drawable/ic_plus"
+            android:paddingLeft="8dp"
+            android:text="Add Task"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</LinearLayout>
